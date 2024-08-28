@@ -20,8 +20,8 @@ function addPost(){
 
 
           <div>
-          <button type="button" class="btn btn-primary" onclick = "editPost(event)">Edit</button>
-          <button type="button" class="btn btn-danger" onclick = "remove(event)">Delete</button>
+          <button type="button" class="fontStyle btn btn-primary" onclick = "editPost(event)">Edit</button>
+          <button type="button" class="fontStyle btn btn-danger" onclick = "remove(event)">Delete</button>
 </div>
          </div>`
        
@@ -67,10 +67,10 @@ async function editPost(event) {
     const { value: formValues } = await Swal.fire({
         title: "Update Post",
         html: `
-         <label class="m-2 p-2">Update Title</label> 
-         <input id="swal-input1" class="swal1-input" value="${titleElement.textContent}">
-         <label class="m-2 p-2">Update Description</label> 
-         <input id="swal-input2" class="swal1-input" value="${descriptionElement.textContent}">
+         <label class=" fontStyle m-2 p-2">Update Title</label> 
+         <input id="swal-input1" class=" fontStyle swal1-input" value="${titleElement.textContent}">
+         <label class="fontStyle m-2 p-2">Update Description</label> 
+         <input id="swal-input2" class="fontStyle swal1-input" value="${descriptionElement.textContent}">
         `,
         focusConfirm: false,
         preConfirm: () => {

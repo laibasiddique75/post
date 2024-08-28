@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
+@font-face{
+    src: url("font/PlaywriteDKLoopet-VariableFont_wght.ttf");
+    font-family: "playwrite";
+}
 .fontStyle{
-    font-family: 'Roboto Mono', monospace;
+    font-family:"playwrite" ;
+    /* font-family: 'Roboto Mono', monospace; */
     font-optical-sizing: auto;
     font-style: normal;
 
+
 }
+
+.fontStyle1{
+    font-family:"playwrite" ;
+    font-size: 25px;
+}
+
 .bg-green {
 	background-color: #125b9a;
     height: 80px !important;
@@ -21,8 +32,9 @@
 
 }
 .border-green{
-    border: 2px solid #125B9A;
-    border-radius: 10px;
+     border: 5px solid #125B9A; 
+    border-radius: 75px;
+  
 }
 
 

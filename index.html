@@ -11,17 +11,21 @@
             crossorigin="anonymous"
         >
         <link rel="stylesheet" href="style.css">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- post navbar -->
         <nav class="navbar navbar-expand-lg bg-green h-100">
             <div class="container-fluid d-flex justify-content-center">
-                <a class="navbar-brand text-white fontStyle " href="#">My Post Web</a>
+                <a class="navbar-brand text-white fontStyle1 " href="#"><h1 class="animate__animated animate__lightSpeedInRight">My Post Web</h1></a>
             </nav>
         </div>
         <!-- Post body -->
-        <div class="container-fluid mt-4 ">
+        <h6 class="animate__animated animate__slideInLeft ">    <div class="container-fluid mt-4 ">
             <div class="row p-2 ">
                 <div class="col-12 col-sm-12 col-md-6   ">
                     <!-- Post maker -->
@@ -30,8 +34,8 @@
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label fontStyle">Title</label>
                                 <input
-                                    type="text"
-                                    class="form-control"
+                                    type="text "
+                                    class="form-control fontStyle"
                                     id="post-title"
                                     aria-describedby="emailHelp">
                             </div>
@@ -44,6 +48,9 @@
                                 ></textarea>
                                 <label for="floatingTextarea2 ">Description</label>
                             </div>
+
+
+
 
                             <div class="images p-2 m-2">
 
@@ -74,6 +81,7 @@
         </div>
 
 
+    </h6>
 
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
